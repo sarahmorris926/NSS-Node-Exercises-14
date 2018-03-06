@@ -1,0 +1,17 @@
+{
+  "name": "file-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "bin": {
+    "readfile": "dice-roll/lib/dice.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "read-file": "node dice-roll/lib/dice.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
