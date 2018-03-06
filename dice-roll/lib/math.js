@@ -1,9 +1,7 @@
-#!/usr/bin/env node
-'use strict';
+"use strict";
 
-const randomInt = (lowerNum, upperNum) => {
-    Math.floor((Math.random() * (upperNum - lowerNum + 1)) + lowerNum);
-}
-
-
-module.exports = {randomInt}
+module.exports.randomInt = (low, high) => {
+  low = Math.ceil(low);
+  high = Math.floor(high);
+  return Math.floor(Math.random() * (high - low + 1)) + low;
+};

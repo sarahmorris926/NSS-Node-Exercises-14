@@ -1,12 +1,15 @@
-#!/usr/bin/env node
+"use strict";
 
-'use strict';
+const { randomInt } = require("./math.js");
+ 
+const toDiceNotation = ({count, sides}) => {
+    return `${count.toString()}d${sides.toString()}`
+}
 
+const roll = (toDiceNotation) => {
+    let low = +toDiceNotation.slice(0, toDiceNotation.indexOf('d'));
+    let high = +toDiceNotation.slice(toDiceNotation.indexOf('d')+1);
+    return randomInt(low, high);
+}
 
-
-// To Dice Notation
-// should accept an object with n {sides}, and count() property, and convert it to a String with the dice notation
-
-
-// Roll
-// should accept {dice} notation string, and produce a random number, which is the result of the dice-roll
+module.exports = { toDiceNotation, roll };
