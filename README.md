@@ -2,7 +2,6 @@
 NSS Node.JS Exercises: 14 - Modularity Diceroll
 
 ![](https://img.shields.io/badge/modularity-node-green.svg)
-![](https://img.shields.io/badge/mvp-working-green.svg)
 
 ## Requirements
 Create a program that performs a dice roll. You will need a folder `dice-roll` with at least 5 files to accomplish this task.
