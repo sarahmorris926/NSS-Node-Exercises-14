@@ -1,17 +1,27 @@
 {
-  "name": "file-io",
+  "name": "node-diceroll-testing-joeshep",
   "version": "1.0.0",
   "description": "",
-  "main": "",
+  "main": "index.js",
   "bin": {
-    "readfile": "dice-roll/lib/dice.js"
+    "diceroll": "bin/diceroll"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "read-file": "node dice-roll/lib/dice.js"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahmorris926/NSS-Node-Exercises-14.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {}
+  "author": "Joe Shep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarahmorris926/NSS-Node-Exercises-14/issues"
+  },
+  "homepage": "https://github.com/sarahmorris926/NSS-Node-Exercises-14#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha -R list --watch"
+  }
 }
