@@ -4,18 +4,22 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "diceroll": "dice-roll/bin/diceroll"
+    "diceroll": "bin/diceroll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahmorris926/NSS-Node-Exercises-14-15.git"
   },
   "keywords": [],
-  "author": "Sarah Morris",
+  "author": "Joe Shep",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sarahmorris926/NSS-Node-Exercises-14/issues"
+    "url": "https://github.com/sarahmorris926/NSS-Node-Exercises-14-15/issues"
   },
-  "homepage": "https://github.com/sarahmorris926/NSS-Node-Exercises-14#readme",
+  "homepage": "https://github.com/sarahmorris926/NSS-Node-Exercises-14-15#readme",
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.0.4"
+    "chai": "^3.5.0",
+    "mocha": "^3.5.3"
   },
   "scripts": {
     "test": "mocha -R nyan --watch"

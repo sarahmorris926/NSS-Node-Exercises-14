@@ -32,3 +32,4 @@ module.exports.roll = (diceNotation) => {
 }
 
 module.exports.toDiceNotation = ({count, sides}) => `${count}d${sides}`;
+
