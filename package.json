@@ -1,27 +1,23 @@
 {
-  "name": "node-diceroll-testing-joeshep",
+  "name": "node-diceroll-testing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "diceroll": "bin/diceroll"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sarahmorris926/NSS-Node-Exercises-14.git"
+    "diceroll": "dice-roll/bin/diceroll"
   },
   "keywords": [],
-  "author": "Joe Shep",
+  "author": "Sarah Morris",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sarahmorris926/NSS-Node-Exercises-14/issues"
   },
   "homepage": "https://github.com/sarahmorris926/NSS-Node-Exercises-14#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4"
   },
   "scripts": {
-    "test": "mocha -R list --watch"
+    "test": "mocha -R nyan --watch"
   }
 }
